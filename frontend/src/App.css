@@ -1,0 +1,21 @@
+
+.Adminpainalsidebar{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.usertable{
+@apply bg-white
+}
+.usertable th{
+ @apply border text-base font-medium bg-slate-200 p-2
+}
+.usertable td{
+    @apply border text-base  text-center p-2 
+}
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+  .header-logo{
+    @apply h-14 w-14
+  }
+}
