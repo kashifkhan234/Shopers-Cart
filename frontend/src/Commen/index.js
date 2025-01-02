@@ -1,5 +1,5 @@
 
-const backendDomine = " http://localhost:3001";
+const backendDomine = "https://shopers-cart-backend.onrender.com";
 
 const SummryApi = {
 
